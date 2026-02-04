@@ -1,0 +1,152 @@
+/* ================= BODY & GENERAL ================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f6f3;
+    transition: opacity 0.4s ease;
+}
+
+/* ================= HERO / HEADER ================= */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://i.imgur.com/3ZQ3ZQp.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero.small {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #1abc9c;
+    margin-bottom: 15px;
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+/* Primary button - Take Admission */
+.btn {
+    background-color: #1abc9c; /* green */
+    color: white;
+}
+
+.btn:hover {
+    background-color: #159a82;
+}
+
+/* Secondary button - Contact Us */
+.btn-secondary {
+    background-color: #3498db; /* blue */
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #217dbb;
+}
+
+/* ================= SECTIONS ================= */
+section {
+    background: white;
+    margin: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* ================= COURSES LIST ================= */
+.courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.courses li {
+    background: #eafaf5;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* ================= FORM STYLING ================= */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #159a82;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .btn {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+    }
+}
